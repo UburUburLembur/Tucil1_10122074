@@ -18,7 +18,7 @@ Jika terinstal dengan benar, akan muncul informasi versi Java.
 Karena program ditulis dalam bahasa Java, perlu dikompilasi terlebih dahulu sebelum dijalankan.
 Gunakan perintah berikut:
 ```
-javac ReadFile.java
+javac IQPuzzler.java
 ```
 Perintah ini akan menghasilkan file ReadFile.class yang siap dieksekusi.
 
@@ -34,7 +34,7 @@ Perintah ini akan menghasilkan file ReadFile.class yang siap dieksekusi.
 ```
 2. Jalankan program dengan perintah berikut:
 ```
-java ReadFile
+java IQPuzzler
 ```
 3. Jika solusi ditemukan, program akan:
 * Menampilkan hasil dengan warna di terminal.
