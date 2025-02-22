@@ -6,7 +6,7 @@ Untuk menjalankan program dibutuhkan requirement sebagai berikut.
   * Java Development Kit (JDK) 8 atau lebih baru.
   * Editor atau IDE seperti VS Code, IntelliJ IDEA, atau Eclipse.
 
-Jika belum memiliki JDK, silahkan unduh dan instal dari [Oracle JDK]([https://](https://www.oracle.com/java/technologies/downloads/#java11?er=221886)) 
+Jika belum memiliki JDK, silahkan unduh dan instal dari [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java11?er=221886)
 
 Pastikan Java telah terinstal dengan menjalankan perintah berikut di terminal atau command prompt:
 ```
@@ -53,5 +53,5 @@ java IQPuzzler
 4. Jika ingin menyimpan solusi, ketik ```ya``` saat ditanya. Jika tidak ingin menyimpan solusi, ketik ```tidak``` saat ditanya. Solusi akan disimpan di **solution.txt**.
 
 # Author
-* Nama: Muhamamd Zakkiy
+* Nama: Muhammad Zakkiy
 * Email: muhammadzakkiy6@gmail.com
