@@ -44,7 +44,7 @@ berekstensi ```.txt```, kemudian program membaca file test case tersebut yang be
 ```
 java IQPuzzler
 ```
-3. Program akan meminta masukan berupa nama file. tulis nama file nya saja. Misalkan jika nama filenya ```test1.txt```, tulis ```test1```.
+3. Program akan meminta masukan berupa nama file. tulis nama file nya saja. Misalkan jika nama filenya ```test1.txt```, tulis ```test1.txt```.
 4. Jika solusi ditemukan, program akan:
     * Menampilkan hasil dengan warna di terminal.
     * Menunjukkan jumlah kasus yang ditinjau.
