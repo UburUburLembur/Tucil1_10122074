@@ -23,7 +23,7 @@ javac IQPuzzler.java
 Perintah ini akan menghasilkan file ReadFile.class yang siap dieksekusi.
 
 # Cara Menjalankan dan Menggunakan Program
-1. Siapkan file input (misalnya test3.txt) dengan format:
+1. Siapkan file input .txt dengan format:
 ```
   N M P
   S
@@ -36,7 +36,8 @@ Perintah ini akan menghasilkan file ReadFile.class yang siap dieksekusi.
 ```
 java IQPuzzler
 ```
-3. Jika solusi ditemukan, program akan:
+3. Program akan meminta masukan berupa nama file. tulis nama file nya saja. Misalkan jika nama filenya ```test1.txt```, tulis ```test1```.
+4. Jika solusi ditemukan, program akan:
 * Menampilkan hasil dengan warna di terminal.
 * Menunjukkan jumlah kasus yang ditinjau.
 * Menampilkan waktu eksekusi.
