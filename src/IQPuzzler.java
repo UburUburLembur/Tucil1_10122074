@@ -1,8 +1,8 @@
-import java.io.File;  // Import the File class
+import java.io.File; 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.FileNotFoundException;  // Import this class to handle errors
-import java.util.Scanner; // Import the Scanner class to read text files
+import java.io.FileNotFoundException;  
+import java.util.Scanner; 
 import java.util.HashMap;
 import java.util.ArrayList;
 
@@ -249,6 +249,23 @@ public class IQPuzzler {
             if (is_create_file.equals("ya")) {
                 try {
                     FileWriter myWriter = new FileWriter("solution_" + file_name);
+                    myWriter.write("Input:\n\n");
+
+                    try {
+                        File file = new File(file_name);
+                        Scanner myReader = new Scanner(file);
+                        while (myReader.hasNextLine()) {
+                            String data = myReader.nextLine();
+                            myWriter.write(data + "\n");
+                        }
+                        myReader.close();
+                    } catch (FileNotFoundException e) {
+                        System.out.println("An error occurred.");
+                        e.printStackTrace();
+                    }
+
+                    myWriter.write("\nOutput:\n\n");
+
                     for (int i = 0; i < N; i++) {
                         for (int j= 0; j < M; j++) {
                             myWriter.write(board.get(i).get(j));
