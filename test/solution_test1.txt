@@ -1,0 +1,31 @@
+Input:
+
+5 5 7
+DEFAULT
+A
+AA
+B
+BB
+C
+CC
+D
+DD
+EE
+EE
+E
+FF
+FF
+F
+GGG
+
+Output:
+
+ABBCC
+AABCD
+EEEDD
+EEFFF
+GGGFF
+
+Banyak kasus yang ditinjau: 2469
+
+Waktu pencarian: 365.5663 ms
