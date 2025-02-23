@@ -1,0 +1,27 @@
+Input:
+
+4 5 5
+DEFAULT
+A
+AA
+AAA
+B
+BB
+C
+C
+CC
+D
+D
+DD
+EEE
+
+Output:
+
+ABBCC
+AABCD
+AAACD
+EEEDD
+
+Banyak kasus yang ditinjau: 6
+
+Waktu pencarian: 8.1672 ms

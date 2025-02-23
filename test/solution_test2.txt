@@ -1,0 +1,20 @@
+Input:
+
+3 3 3
+DEFAULT
+A
+AA
+BB
+ C
+CCC
+
+
+Output:
+
+AAB
+ACB
+CCC
+
+Banyak kasus yang ditinjau: 24
+
+Waktu pencarian: 27.1966 ms
